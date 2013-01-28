@@ -1,5 +1,7 @@
-module.exports = function(grunt) {
+"use strict";
 
+module.exports = function(grunt) {
+	
 	grunt.initConfig({
 		'min': {
 			'dist': {
@@ -14,13 +16,13 @@ module.exports = function(grunt) {
 			}
 		},
 		'watch': {
-			'files': '<config:jshint.dev>',
+			'files': '<%= jshint.dev.files.src %>',
 			'tasks': 'default'
 		},
 		'jshint': {
 			'dev': {
 				files: {
-					src: ['grunt.js', 'tasks/*.js', 'tasks/lib/*.js']
+					src: ['gruntFile.js', 'tasks/*.js', 'tasks/lib/*.js']
 				}
 			},
 			'options': {
