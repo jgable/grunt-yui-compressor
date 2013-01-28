@@ -1,46 +1,49 @@
 {
-	"name": "grunt-yui-compressor",
-	"description": "A grunt plugin for compressing JavaScript and CSS files using YUI Compressor.",
-	"version": "0.1.1",
-	"homepage": "https://github.com/mathiasbynens/grunt-yui-compressor",
-	"author": {
-		"name": "Mathias Bynens",
-		"email": "mathias@qiwi.be",
-		"url": "http://mathiasbynens.be/"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/mathiasbynens/grunt-yui-compressor.git"
-	},
-	"bugs": {
-		"url": "https://github.com/mathiasbynens/grunt-yui-compressor/issues"
-	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://mths.be/mit"
-		},
-		{
-			"type": "GPL",
-			"url": "http://mths.be/gpl"
-		}
-	],
-	"main": "grunt.js",
-	"bin": "bin/grunt-yui-compressor",
-	"engines": {
-		"node": "*"
-	},
-	"scripts": {
-		"test": "grunt test"
-	},
-	"dependencies": {
-		"grunt": "~0.3.8",
-		"node-minify": "~0.3.10"
-	},
-	"devDependencies": {
-		"grunt": "~0.3.8"
-	},
-	"keywords": [
-		"gruntplugin"
-	]
+  "name": "grunt-yui-compressor",
+  "description": "A grunt plugin for compressing JavaScript and CSS files using YUI Compressor.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/mathiasbynens/grunt-yui-compressor",
+  "author": {
+    "name": "Mathias Bynens",
+    "email": "mathias@qiwi.be",
+    "url": "http://mathiasbynens.be/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mathiasbynens/grunt-yui-compressor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mathiasbynens/grunt-yui-compressor/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mths.be/mit"
+    },
+    {
+      "type": "GPL",
+      "url": "http://mths.be/gpl"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-yui-compressor",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt": "~0.3.8",
+    "grunt-lib-contrib": "~0.5.2",
+    "node-minify": "~0.3.10"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.8",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-watch": "~0.1.4"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
 }
